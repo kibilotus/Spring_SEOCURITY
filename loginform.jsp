@@ -54,7 +54,7 @@
 				</div>
 				<br>
 				<div>
-					아직 회원이 아니신가요? <i class="s3"><a href="join_main.jsp">회원가입</a></i>
+					아직 회원이 아니신가요? <i class="s3"><a href="/mvc/joinform">회원가입</a></i>
 				</div>
 			</div>
 			</form>

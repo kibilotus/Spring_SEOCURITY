@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="list.css?after">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/list.css?after">
 </head>
 <body>
 <tr>
@@ -29,9 +29,9 @@
 				</dd>
 			</dl>
 			
-			<img src="img/consulting_sub2_1.jpg" width="100%"><br>
+			<img src="${pageContext.request.contextPath}/resources/image/consulting_sub2_1.jpg" width="100%"><br>
 			
-			<img src="img/consulting_sub2_2.jpg" width="100%"><br>
+			<img src="${pageContext.request.contextPath}/resources/image/consulting_sub2_2.jpg" width="100%"><br>
 			
 			</div>
 	</div>

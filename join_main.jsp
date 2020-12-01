@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Seocurity_회원가입</title>
-<link rel="stylesheet" type="text/css" href="join.css?after">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/join.css?after">
 </head>
 <script>
 	function idCheck(){
@@ -33,7 +33,7 @@
 <body>
 
 		<header>
-			<center><a href="main.jsp"><img src="img/title.jpg"></a></center>
+			<center><a href="/mvc"><img src="${pageContext.request.contextPath}/resources/image/title.jpg"></a></center>
 		</header>		
 		<br>
 		<hr>
@@ -152,7 +152,7 @@
 	     </tr>
 	   </table>
 			<input type="submit" value="회원가입" class="btn_style2" style='background:#3282FF;' >
-			<input type="button" value="취소" class="btn_style2" onclick="location.href='main.jsp'">
+			<input type="button" value="취소" class="btn_style2" onclick="location.href='/mvc'">
 			
 	</form>
 

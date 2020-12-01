@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Seocurity|정보보호 종합 컨설팅</title>
-<link rel="stylesheet" type="text/css" href="list.css?after">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/list.css?after">
 <style>
 	.top_list{
 		
@@ -57,10 +57,10 @@
 					
 				</dd>
 	</dl>
-		<img src="img/consulting_sub3_2.jpg" width="100%"><br>
+		<img src="${pageContext.request.contextPath}/resources/image/consulting_sub3_2.jpg" width="100%"><br>
 	<h3>수행방안</h3><br>
 	<div style="border:1px solid #d8d8d8;">
-		<img src="img/consulting_sub3_1.jpg" width="100%"><br>
+		<img src="${pageContext.request.contextPath}/resources/image/consulting_sub3_1.jpg" width="100%"><br>
 	</div>
 	</div>
 </div>

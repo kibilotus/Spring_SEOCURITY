@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Seocurity|시스템취약점 진단 컨설팅</title>
-<link rel="stylesheet" type="text/css" href="list.css?after">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/list.css?after">
 </head>
 <body>
 <tr>
@@ -23,7 +23,7 @@
 	</dl>
 	<br>
 	<div style="border:1px solid #d8d8d8;">
-	<img src="img/consulting_sub4_1.jpg" width="100%"><br>
+	<img src="${pageContext.request.contextPath}/resources/image/consulting_sub4_1.jpg" width="100%"><br>
 	</div>
 	</div>
 </div>

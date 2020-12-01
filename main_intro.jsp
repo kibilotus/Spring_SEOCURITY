@@ -9,12 +9,12 @@
 <body>
 	<tr>
 		<td>
-				<img src="img/main.gif" width="100%" height="800px">
+				<img src="${pageContext.request.contextPath}/resources/image/main.gif" width="100%" height="800px">
 		</td>
 	</tr>
 <tr>
 	<td>
-		<img src="img/intro.jpg" width="100%">
+		<img src="${pageContext.request.contextPath}/resources/image/intro.jpg" width="100%">
 	</td>
 </tr>
 </body>

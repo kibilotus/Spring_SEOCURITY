@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="list.css?after">
-<link rel="stylesheet" type="text/css" href="consulting_btn.css?after">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/list.css?after">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/consulting_btn.css?after">
 <style>
 	.container {
 	    position: relative;
@@ -31,21 +31,21 @@
 		<h3>최적의 정보보호 체계를 위한 종합적 대책 </h3>
 		정보보호 컨설턴트로 구성된 전문가 그룹이 보안진단을 통해 분석및 대책 수립을 통하여 최적의 정보보호 시스템을 구축하기 위한 해결책을 제시합니다.<br>
 		<h3>정보 보호 컨설팅 목적</h3><br>
-		<img src="img/consulting_main.jpg" width="100%"><br>
+		<img src="${pageContext.request.contextPath}/resources/image/consulting_main.jpg" width="100%"><br>
 		
 		<h3>종류</h3>
 		<div class="sub1">
 			<ul>
-				<li><a href="main.jsp?target=consulting_sub1">주요정보통신기반 보호컨설팅</a></li>
-				<li><a href="main.jsp?target=consulting_sub2">개인정보보호 컨설팅</a></li>
-				<li><a href="main.jsp?target=consulting_sub3">정보보호 종합 컨설팅</a></li>
-				<li><a href="main.jsp?target=consulting_sub4">시스템취약점 진단 컨설팅</a></li>
+				<li><a href="/consulting_sub1">주요정보통신기반 보호컨설팅</a></li>
+				<li><a href="/consulting_sub2">개인정보보호 컨설팅</a></li>
+				<li><a href="/consulting_sub3">정보보호 종합 컨설팅</a></li>
+				<li><a href="/consulting_sub4">시스템취약점 진단 컨설팅</a></li>
 			</ul>
 		</div>
 		<p>
 		
 		<h3>특징/장점</h3><br>
-		<img src="img/consulting_main2.jpg" width="100%"><br>
+		<img src="${pageContext.request.contextPath}/resources/image/consulting_main2.jpg" width="100%"><br>
 		<div class="container">
 			<dl class="top_list">
 			<dt class="list">국내 최고의 <br>정보보호 기반의 기술 보유</dt>
