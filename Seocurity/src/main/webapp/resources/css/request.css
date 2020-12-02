@@ -1,0 +1,25 @@
+	.btn_style2{
+		    border-radius: 5px;
+		    width: 150px;
+		    height:50px;
+
+		}
+	
+	.request_top{
+		height:100px;
+	}
+	
+
+	.request_list{
+		clear: both; 
+		float: left;
+		width:25%;
+	    font-size: 18px;
+	    margin-left:30px
+	}
+	
+	.request_sub{
+		float: left;
+	    width: 65%;
+	    padding-bottom: 35px;
+	}
